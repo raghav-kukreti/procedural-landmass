@@ -30,6 +30,7 @@ public class MapDisplay : MonoBehaviour
         
      // To preview maps without entering game mode -> use textureRenderer.Material
 
+     
      textureRenderer.sharedMaterial.mainTexture = texture;
      textureRenderer.transform.localScale = new Vector3(width, 1, height);
     }
