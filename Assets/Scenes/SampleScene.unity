@@ -337,9 +337,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec96dd46ad2948a449d4ee663f1fccdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 1
   mapHeight: 100
   mapWidth: 100
-  scale: 20
+  scale: 46.3
+  octaves: 10
+  persistance: 0.496
+  lacunarity: 2
+  seed: 5
+  offset: {x: 1.3, y: 1.8}
+  regions:
+  - height: 0.3
+    color: {r: 0, g: 0.6784314, b: 0.9372549, a: 0}
+    label: Water
+  - height: 0.4
+    color: {r: 0.08018869, g: 0.9093023, b: 1, a: 0}
+    label: WaterShallow
+  - height: 0.5
+    color: {r: 1, g: 0.80345917, b: 0.41037738, a: 0}
+    label: Sand
+  - height: 0.7
+    color: {r: 0.18039216, g: 0.8, b: 0.44313726, a: 0}
+    label: HigherLand
+  - height: 0.9
+    color: {r: 0.47058827, g: 0.3137255, b: 0, a: 1}
+    label: HighLand
+  - height: 1
+    color: {r: 1, g: 1, b: 1, a: 0}
+    label: Ice
 --- !u!4 &1136542405
 Transform:
   m_ObjectHideFlags: 0
